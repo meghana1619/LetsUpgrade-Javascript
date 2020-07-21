@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            const n=window.prompt('enter a number');
+            var a1=[]
+            for(var i=1;i<=n;i++){
+                a1.push(i);
+
+            }
+            var a2=a1.filter(ele=>
+                ele%2==1).
+                map(ele=>ele**3);
+            console.log(a2);
+
+        </script>
+    </body>
+</html>
