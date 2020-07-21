@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <script>
+            let ask=(question,yes,no)=>{
+                if(confirm(question))
+                    yes();
+                else
+                    no();
+
+            ask("do u agree",function(){alert("u agreed");},function(){alert("u cancelled");});
+            }
+        </script>
+    </body>
+</html>
