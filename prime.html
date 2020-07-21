@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <script>
+            var s=window.prompt('enter the range');
+            
+            for(i=2;i<s;i++){
+                var c=0;
+                for(j=2;j<s;j++){
+                if(i%j==0)
+                    c=c+1
+                }
+                if(c==1){
+                    console.log(i);
+                }
+            }
+        </script>
+    </body>
+</html>
