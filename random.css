@@ -1,0 +1,125 @@
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing: border-box;
+}
+body{
+    background:url('b1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+}
+.main{
+    display:block;
+    width:680px;
+    height:450px;
+    padding:2px;
+    border:4px solid maroon;
+    border-radius: 20px;
+    margin:100px;
+}
+#name{
+    text-align: center;
+    font-size: 40px;
+    color:black;
+    font-family: 'Lemonada', cursive;
+    padding-top: 5px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top:150px;
+    border:5px solid black;
+    border-radius: 50% ;
+
+    padding:2px 2px;
+} 
+.one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transition:all 3s ease-in-out ;
+
+}
+.btn{
+    outline:none;
+    width:180px;
+    height:50px;
+    border-radius: 20px;
+    border:2px solid palevioletred;
+    color: maroon;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Ranchers', cursive;
+    font-family: 'Satisfy', cursive;
+}
+.two{
+    text-align: center;
+    padding:15px 15px;
+}
+.btn:hover{
+    background-color: moccasin;
+}
+.quote{
+    text-align:center;
+    padding:10px 10px;
+    margin-left:10px;
+    font-size: 40px;
+    font-weight:lighter;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Ranchers', cursive;
+    font-family: 'Satisfy', cursive;
+}
+@media(max-width: 768px){
+    .one{
+        display: block;
+        width:100%;
+      text-align: center;
+    }
+    .main{
+        display:block;
+        width:450px;
+        height:600px;
+        padding-left:1px;
+        border:2px solid maroon;
+        border-radius: 20px;
+        margin-left:2px;
+        font-size:30px;
+    }
+    body{
+        background:url('b1.jpeg');
+        background-size: 100%;
+        box-sizing: border-box;
+    }
+    .quote{
+        margin-left:3px;
+        padding:5px 5px;
+        word-spacing: 1px;
+        box-sizing: border-box;
+        
+    }
+    #name{
+      text-align: justify;
+      font-size:35px;
+      word-spacing:0px;
+      letter-spacing:0px;
+    }
+    .two{
+        text-align: center;
+        padding:10px 10px;
+    }
+}
+@media only screen and (max-width:998px){
+    body{
+        background:url('b1.jpeg');
+        background-size: 100%;
+        box-sizing: border-box;
+    }
+}
+
